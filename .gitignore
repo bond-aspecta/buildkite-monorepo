@@ -36,3 +36,5 @@ Temporary Items
 id_rsa*
 *.pub
 aws-stack.yml
+
+.vscode
