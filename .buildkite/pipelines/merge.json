@@ -2,7 +2,7 @@
   "name": "$PIPELINE_NAME",
   "description": "Pipeline for $PIPELINE_NAME merge",
   "repository": "$REPOSITORY",
-  "default_branch": "master",
+  "default_branch": "main",
   "steps": [
     {
       "type": "script",
@@ -12,7 +12,7 @@
   ],
   "cancel_running_branch_builds": true,
   "skip_queued_branch_builds": true,
-  "branch_configuration": "master",
+  "branch_configuration": "main",
   "provider_settings": {
     "trigger_mode": "code",
     "build_pull_requests": false,

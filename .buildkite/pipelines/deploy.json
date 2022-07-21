@@ -2,7 +2,7 @@
   "name": "$PIPELINE_NAME",
   "description": "Pipeline for $PIPELINE_NAME deploy",
   "repository": "$REPOSITORY",
-  "default_branch": "master",
+  "default_branch": "main",
   "steps": [
     {
       "type": "script",
